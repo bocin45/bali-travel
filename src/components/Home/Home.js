@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import slide_1 from '../../images/slide_1.jpg';
 import slide_2 from '../../images/slide_2.jpg';
@@ -13,11 +13,9 @@ const Home = () => {
     const [index, setIndex] = useState(0);
     const image = [slide_1, slide_2, slide_3];
 
-
     useEffect(() => {
         const timer = setTimeout(() => {
             setIndex(page => {
-                console.log(page);
                 if (page === image.length - 1) {
                     return 0;
                 } else {
@@ -30,7 +28,6 @@ const Home = () => {
     }, [index])
 
     const handleIncrement = () => {
-        console.log(index);
         if (index === image.length - 1) {
             setIndex(0)
         } else {
@@ -39,7 +36,6 @@ const Home = () => {
     };
 
     const handleDecrement = () => {
-        console.log(index)
         if (index === 0) {
             setIndex(image.length - 1)
         } else {
