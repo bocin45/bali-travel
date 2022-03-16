@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+// import Sidebar from './components/Sidebar';
+import Sidebar from './components/Sidebar';
+import Home from './components/Home/Home';
 import reportWebVitals from './reportWebVitals';
+import Features from './components/Features/Feature';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Sidebar /> */}
+    <Home />
+    <Features />
   </React.StrictMode>,
   document.getElementById('root')
 );
