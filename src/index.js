@@ -1,20 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-// import Sidebar from './components/Sidebar';
-import Sidebar from './components/Sidebar';
-import Home from './components/Home/Home';
 import reportWebVitals from './reportWebVitals';
-import Features from './components/Features/Feature';
-import RecentProject from './components/RecentProjects/RecentProject';
+import HomeBar from './components/HomeBar/HomeBar'
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Sidebar /> */}
-    <Home />
-    <Features />
-    <RecentProject />
+    <HomeBar></HomeBar>
   </React.StrictMode>,
   document.getElementById('root')
 );
