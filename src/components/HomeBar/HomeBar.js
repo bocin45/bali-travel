@@ -208,7 +208,7 @@ const HomeBar = () => {
                         </li>
                         <li className="tm-tab-link-li">
                             <a href="#6a" data-toggle="tab" className="tm-tab-link">
-                                <img src={require('../../images/australia.png')} alt="Image" className="img-fluid" />
+                                <img src={require('../../images/bali.png')} alt="Image" className="img-fluid" />
                                 Australia
                             </a>
                         </li>
@@ -639,6 +639,25 @@ const HomeBar = () => {
                             <a href="#" className="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a>
                         </div>
                     </div>
+                </div>
+
+                <div className="tm-container-outer tm-position-relative" id="tm-section-4">
+                    <div id="google-map"></div>
+                    <form action="index.html" method="post" class="tm-contact-form">
+                        <div className="form-group tm-name-container">
+                            <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required />
+                        </div>
+                        <div className="form-group tm-email-container">
+                            <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required />
+                        </div>
+                        <div className="form-group">
+                            <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject" required />
+                        </div>
+                        <div className="form-group">
+                            <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" className="btn btn-primary tm-btn-primary tm-btn-send text-uppercase">Send Message Now</button>
+                    </form>
                 </div>
             </div>
         </>
