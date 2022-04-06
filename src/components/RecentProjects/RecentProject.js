@@ -124,6 +124,96 @@ const RecentProject = () => {
           />
         </Modal.Body>
       </Modal>
+
+      <ThemeProvider theme={theme}>
+        <AppBar style={{
+          background: 'white'
+        }} position="static">
+          <Container maxWidth="xl">
+            <Toolbar disableGutters>
+
+              <Box alignItems={"center"} sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                {/* <img src={logo} /> */}
+                <Typography
+                  variant="h4"
+                  noWrap
+                  component="div"
+                  color={"black"}
+                  sx={{ mr: 2, fontWeight: 'bold' }}
+                >
+                  ADORE BALI
+                </Typography>
+
+              </Box>
+
+              <Box alignItems={"center"} sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                {/* <img src={logo} /> */}
+                <Typography
+                  variant="h4"
+                  noWrap
+                  component="div"
+                  color={"black"}
+                  sx={{ mr: 2, fontWeight: 'bold' }}
+                >
+                  ADORE BALI
+                </Typography>F
+              </Box>
+
+              <Box sx={{
+                flexGrow: 1, display: { xs: 'flex', md: 'none' }, flexDirection: 'row-reverse'
+              }}>
+                <IconButton
+                  size="large"
+                  aria-label="account of current user"
+                  aria-controls="menu-appbar"
+                  aria-haspopup="true"
+                  onClick={handleOpenNavMenu}
+                  color="inherit"
+                >
+                  <MenuIcon style={{ color: 'black' }} />
+                </IconButton>
+                <Menu
+                  id="menu-appbar"
+                  anchorEl={anchorElNav}
+                  anchorOrigin={{
+                    vertical: 'bottom',
+                    horizontal: 'left',
+                  }}
+                  keepMounted
+                  transformOrigin={{
+                    vertical: 'top',
+                    horizontal: 'left',
+                  }}
+                  open={Boolean(anchorElNav)}
+                  onClose={handleCloseNavMenu}
+                  sx={{
+                    display: { xs: 'block', md: 'none' },
+                  }}
+                >
+                  {pages.map((page) => (
+                    <MenuItem key={page} onClick={handleCloseNavMenu}>
+                      <Typography textAlign="center">{page}</Typography>
+                    </MenuItem>
+                  ))}
+                </Menu>
+              </Box>
+              <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, flexDirection: 'row-reverse' }}>
+                {pages.map((page) => (
+                  <Button
+                    key={page}
+                    onClick={handleCloseNavMenu}
+                    sx={{ my: 2, color: 'black', display: 'block', fontWeight: 'bold' }}
+                  >
+                    {page}
+                  </Button>
+                ))}
+              </Box>
+
+
+            </Toolbar>
+          </Container>
+        </AppBar>
+      </ThemeProvider>
     </>
   );
 };

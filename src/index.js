@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import HomeBar from './components/HomeBar/HomeBar'
+import './bootstrap.min.css'
+import './datepicker.css'
+import './templatemo-style.css'
 
 ReactDOM.render(
   <React.StrictMode>
