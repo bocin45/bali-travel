@@ -178,43 +178,43 @@ const HomeBar = () => {
                     <ul className="nav nav-pills tm-tabs-links">
                         <li className="tm-tab-link-li">
                             <a href="#1a" data-toggle="tab" className="tm-tab-link">
-                                <img src="img/north-america.png" alt="Image" className="img-fluid" />
+                                <img src={require('../../images/north-america.png')} alt="Image" className="img-fluid" />
                                 North America
                             </a>
                         </li>
                         <li className="tm-tab-link-li">
                             <a href="#2a" data-toggle="tab" className="tm-tab-link">
-                                <img src="img/south-america.png" alt="Image" className="img-fluid" />
+                                <img src={require('../../images/south-america.png')} alt="Image" className="img-fluid" />
                                 South America
                             </a>
                         </li>
                         <li className="tm-tab-link-li">
                             <a href="#3a" data-toggle="tab" className="tm-tab-link">
-                                <img src="img/europe.png" alt="Image" className="img-fluid" />
+                                <img src={require('../../images/europe.png')} alt="Image" className="img-fluid" />
                                 Europe
                             </a>
                         </li>
                         <li className="tm-tab-link-li">
                             <a href="#4a" data-toggle="tab" className="tm-tab-link active">
-                                <img src="img/asia.png" alt="Image" className="img-fluid" />
+                                <img src={require('../../images/asia.png')} alt="Image" className="img-fluid" />
                                 Asia
                             </a>
                         </li>
                         <li className="tm-tab-link-li">
                             <a href="#5a" data-toggle="tab" className="tm-tab-link">
-                                <img src="img/africa.png" alt="Image" className="img-fluid" />
+                                <img src={require('../../images/africa.png')} alt="Image" className="img-fluid" />
                                 Africa
                             </a>
                         </li>
                         <li className="tm-tab-link-li">
                             <a href="#6a" data-toggle="tab" className="tm-tab-link">
-                                <img src="img/australia.png" alt="Image" className="img-fluid" />
+                                <img src={require('../../images/australia.png')} alt="Image" className="img-fluid" />
                                 Australia
                             </a>
                         </li>
                         <li className="tm-tab-link-li">
                             <a href="#7a" data-toggle="tab" className="tm-tab-link">
-                                <img src="img/antartica.png" alt="Image" className="img-fluid" />
+                                <img src={require('../../images/antartica.png')} alt="Image" className="img-fluid" />
                                 Antartica
                             </a>
                         </li>
@@ -225,7 +225,7 @@ const HomeBar = () => {
                         <div className="tab-pane fade" id="1a">
                             <div className="tm-recommended-place-wrap">
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-06.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-06.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">North Garden Resort</h3>
                                         <p className="tm-text-highlight">One North</p>
@@ -238,7 +238,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-07.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-07.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Felis nec dignissim</h3>
                                         <p className="tm-text-highlight">Two North</p>
@@ -252,7 +252,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-05.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-05.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Sed fermentum justo</h3>
                                         <p className="tm-text-highlight">Three North</p>
@@ -265,7 +265,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-04.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-04.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Maecenas ultricies neque</h3>
                                         <p className="tm-text-highlight">Four North</p>
@@ -285,7 +285,7 @@ const HomeBar = () => {
 
                             <div className="tm-recommended-place-wrap">
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-05.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-05.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">South Resort Hotel</h3>
                                         <p className="tm-text-highlight">South One</p>
@@ -298,7 +298,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-04.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-04.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Aenean ac ante nec diam</h3>
                                         <p className="tm-text-highlight">South Second</p>
@@ -311,7 +311,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-07.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-07.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Suspendisse nec dapibus</h3>
                                         <p className="tm-text-highlight">South Third</p>
@@ -324,7 +324,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-06.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-06.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Aliquam viverra mi at nisl</h3>
                                         <p className="tm-text-highlight">South Fourth</p>
@@ -345,7 +345,7 @@ const HomeBar = () => {
 
                             <div className="tm-recommended-place-wrap">
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-04.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-04.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Europe Hotel</h3>
                                         <p className="tm-text-highlight">Venecia, Italy</p>
@@ -358,7 +358,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-05.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-05.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">In viverra enim turpis</h3>
                                         <p className="tm-text-highlight">Paris, France</p>
@@ -371,7 +371,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-06.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-06.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Volutpat pellentesque</h3>
                                         <p className="tm-text-highlight">Barcelona, Spain</p>
@@ -384,7 +384,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-07.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-07.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Grand Resort Pasha</h3>
                                         <p className="tm-text-highlight">Istanbul, Turkey</p>
@@ -404,7 +404,7 @@ const HomeBar = () => {
 
                             <div className="tm-recommended-place-wrap">
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-06.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-06.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Asia Resort Hotel</h3>
                                         <p className="tm-text-highlight">Singapore</p>
@@ -417,7 +417,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-07.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-07.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Nullam eget est a nisl</h3>
                                         <p className="tm-text-highlight">Yangon, Myanmar</p>
@@ -431,7 +431,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-05.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-04.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Proin interdum ullamcorper</h3>
                                         <p className="tm-text-highlight">Bangkok, Thailand</p>
@@ -444,7 +444,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-04.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-06.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Lorem ipsum dolor sit</h3>
                                         <p className="tm-text-highlight">Vientiane, Laos</p>
@@ -465,7 +465,7 @@ const HomeBar = () => {
 
                             <div className="tm-recommended-place-wrap">
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-05.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-05.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Africa Resort Hotel</h3>
                                         <p className="tm-text-highlight">First City</p>
@@ -478,7 +478,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-04.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-04.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Aenean ac magna diam</h3>
                                         <p className="tm-text-highlight">Second City</p>
@@ -491,7 +491,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-07.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-07.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Beach Barbecue Sunset</h3>
                                         <p className="tm-text-highlight">Third City</p>
@@ -504,7 +504,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-06.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-06.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Grand Resort Pasha</h3>
                                         <p className="tm-text-highlight">Fourth City</p>
@@ -525,7 +525,7 @@ const HomeBar = () => {
 
                             <div className="tm-recommended-place-wrap">
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-04.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-04.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Hotel Australia</h3>
                                         <p className="tm-text-highlight">City One</p>
@@ -538,7 +538,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-05.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-05.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Proin interdum ullamcorper</h3>
                                         <p className="tm-text-highlight">City Two</p>
@@ -551,7 +551,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-06.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-06.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Beach Barbecue Sunset</h3>
                                         <p className="tm-text-highlight">City Three</p>
@@ -564,7 +564,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-07.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-07.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Grand Resort Pasha</h3>
                                         <p className="tm-text-highlight">City Four</p>
@@ -584,7 +584,7 @@ const HomeBar = () => {
 
                             <div className="tm-recommended-place-wrap">
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-04.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-04.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Antartica Resort</h3>
                                         <p className="tm-text-highlight">Ant City One</p>
@@ -597,7 +597,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-05.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-05.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Pulvinar Semper</h3>
                                         <p className="tm-text-highlight">Ant City Two</p>
@@ -610,7 +610,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-06.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-06.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Cras vel sapien</h3>
                                         <p className="tm-text-highlight">Ant City Three</p>
@@ -623,7 +623,7 @@ const HomeBar = () => {
                                 </div>
 
                                 <div className="tm-recommended-place">
-                                    <img src="img/tm-img-07.jpg" alt="Image" className="img-fluid tm-recommended-img" />
+                                    <img src={require('../../images/tm-img-07.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                     <div className="tm-recommended-description-box">
                                         <h3 className="tm-recommended-title">Nullam eget est</h3>
                                         <p className="tm-text-highlight">Ant City Four</p>
