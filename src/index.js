@@ -10,16 +10,23 @@ import './datepicker.css'
 import './templatemo-style.css'
 import Highlight from './components/Highlight/Highlight';
 import Region from './components/Region/Region';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Link } from 'react-router-dom';
+import Home from './components/Pages/Home'
+import About from './components/Pages/About'
 
 ReactDOM.render(
   <React.StrictMode>
-    <NavBar />
-    <div className="tm-page-wrap mx-auto">
-      <Banner />
-      <Highlight />
-      {/* <HomeBar></HomeBar> */}
-      <Region />
-    </div>
+    {/* <HomeBar /> */}
+    <Router>
+      <NavBar />
+      <div className="tm-page-wrap mx-auto">
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+        </Switch>
+      </div>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

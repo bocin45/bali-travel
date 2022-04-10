@@ -47,7 +47,7 @@ const BannerSlider = () => {
 
     return (
         <>
-            <Carousel controls={false} fade={true} indicators={true}>
+            <Carousel interval={3000} controls={false} fade={true} indicators={true}>
                 <Carousel.Item>
                     <HomeImageWrapper>
                         <HomeImage image={slide_1} />

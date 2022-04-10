@@ -53,7 +53,7 @@ const Region = () => {
 
 
                     <div className="tab-pane fade" id="1a">
-                        <h3 className="tm-recommended-title">HOTEL</h3>
+
                         <div className="tm-recommended-place-wrap">
                             <div className="tm-recommended-place">
                                 <img src={require('../../images/tm-img-06.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
@@ -81,7 +81,7 @@ const Region = () => {
                                     <p className="tm-recommended-price-link">Continue Reading</p>
                                 </a>
                             </div>
-                            <h3 className="tm-recommended-title">ACTIVITY</h3>
+
                             <div className="tm-recommended-place">
                                 <img src={require('../../images/tm-img-05.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                 <div className="tm-recommended-description-box">
@@ -95,7 +95,7 @@ const Region = () => {
                                 </a>
                             </div>
 
-                            <h3 className="tm-recommended-title">FOOD</h3>
+
                             <div className="tm-recommended-place">
                                 <img src={require('../../images/tm-img-04.jpg')} alt="Image" className="img-fluid tm-recommended-img" />
                                 <div className="tm-recommended-description-box">

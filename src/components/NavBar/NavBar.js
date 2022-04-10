@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -22,16 +23,24 @@ const NavBar = () => {
                             <div id="mainNav" className="collapse navbar-collapse tm-bg-white">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="#top">Home <span className="sr-only">(current)</span></a>
+                                        <Link to="/" className="nav-link">
+                                            Home
+                                        </Link>
+                                        {/* <a className="nav-link active" href="#top">Home <span className="sr-only">(current)</span></a> */}
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#tm-section-2">Top Destinations</a>
+                                        <a className="nav-link" href="#tm-section-2">Destination</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#tm-section-3">Recommended Places</a>
+                                        <a className="nav-link" href="#tm-section-3">Accomodation</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#tm-section-4">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <Link to="/about" className="nav-link">
+                                            About
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
