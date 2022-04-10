@@ -41,7 +41,7 @@ export const HomeImage = styled.div`
 `
 
 export const HomeCaption = styled.div`
-    text-align: right;
+    text-align: center;
     position: absolute;
     z-index: 10;
     top: 50%;

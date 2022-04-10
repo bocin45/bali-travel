@@ -3,13 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import HomeBar from './components/HomeBar/HomeBar'
+import NavBar from './components/NavBar/NavBar';
+import Banner from './components/Banner/Banner';
 import './bootstrap.min.css'
 import './datepicker.css'
 import './templatemo-style.css'
+import Highlight from './components/Highlight/Highlight';
+import Region from './components/Region/Region';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HomeBar></HomeBar>
+    <NavBar />
+    <div className="tm-page-wrap mx-auto">
+      <Banner />
+      <Highlight />
+      {/* <HomeBar></HomeBar> */}
+      <Region />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
